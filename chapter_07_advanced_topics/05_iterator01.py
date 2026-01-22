@@ -20,7 +20,7 @@ class MyIterator:
 class ReverseIterator:
     def __init__(self, data):
         self.data = data
-        self.position = len(data) - 1
+        self.position = len(self.data) - 1
 
     def __iter__(self):
         return self
